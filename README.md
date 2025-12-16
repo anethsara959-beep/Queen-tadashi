@@ -16,7 +16,7 @@
 ## ONE IMAGE - PAIR SITE 
 ## TOW IMAGE - HEROKU DEPLOY
 
-<p align = center > <a href="https://khanmd-pair.onrender.com/"><img align="center" src="https://files.catbox.moe/3d13re.jpg" alt="Scan QR" height="112" width="300" /></a> </p> <br>
+<p align = center > <a href="https://khanmd-pair.onrender.com/"><img align="center" src="https://files.catbox.moe/6qq57n.jpg" alt="Scan QR" height="112" width="300" /></a> </p> <br>
 <p align = center > <a href="https://heroku.com/deploy?template=https://github.com/anethsara959-beep/Queen-tadashi" target="blank"><img align="center" src="https://files.catbox.moe/5tu0zo.jpg" alt="Deploy bot" height="112" width="310" /></a> </p>
 
 
