@@ -1,6 +1,6 @@
 ## 𝐐び𝐄𝐄𝚴 亇𝜟𝐷𝜟𝑆𝐻𝐼 𝛸𝐷 🎃
 
-<p align = center>   <img src="https://files.catbox.moe/rlthpd.jpg" alt="GIF" width="600" height="300"/> </p>
+<p align = center>   <img src="https://files.catbox.moe/6qq57n.jpg" alt="GIF" width="600" height="300"/> </p>
 
 <p align  = center> <a href="#"><img title="𝗤𝗨𝗘𝗘𝗡 𝗧𝗔𝗗𝗔𝗦𝗛𝗜 𝗫𝗗" src="https://img.shields.io/badge/QUEEN TADASHI BUG-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a> </p>
 
