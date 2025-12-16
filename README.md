@@ -1,4 +1,4 @@
-## 𝐐び𝐄𝐄𝚴 亇𝜟𝐷𝜟𝑆𝐻𝐼 𝛸𝐷 🎃🖤💀
+## 𝐐び𝐄𝐄𝚴 亇𝜟𝐷𝜟𝑆𝐻𝐼 𝛸𝐷 🎃
 
 <p align = center>   <img src="https://files.catbox.moe/rlthpd.jpg" alt="GIF" width="600" height="300"/> </p>
 
