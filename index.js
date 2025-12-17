@@ -57,7 +57,7 @@ const path = require('path')
 const msgRetryCounterCache = new NodeCache()
     //=========================dl-ZIP========================
 
-const ownerNumber =  ['94727319036']
+const ownerNumber =  ['94773742779']
 //===================SESSION============================
 
 if (!fs.existsSync(__dirname + '/session/creds.json')) {
@@ -83,7 +83,7 @@ const port = process.env.PORT || 8000;
 async function connectToWA() {
 //Run the function
 //await downloadAndExtractZip();
-        console.log("Connecting QUEEN TADASHI XD..😈💥.");
+        console.log("Connecting Queen Deleesha..😈💥.");
     const {
         version,
         isLatest
@@ -125,12 +125,12 @@ async function connectToWA() {
                 }
             });
             console.log('Plugins installed ✅')
-            console.log('QUEEN TADASHI XD Bot connected Successful✔️😈🖤')
+            console.log('QUEEN DeleeSha XD Bot connected Successful✔️😈🖤')
 //conn.groupAcceptInvite('IbmddsmeMvy9GPghCV8Vt5?mode=wwt');                            
 //console.log("Successful join our support 🧑‍💻")
 
 
-let up = `*😈🖤 𝐐𝐔𝐄𝐄𝐍 𝐓𝐀𝐃𝐀𝐒𝐇𝐈 𝐗𝐃 𝐂𝐎𝐍𝐄𝐂𝐓𝐄𝐃 ✅*
+let up = `*😈🖤 𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗𝐃 𝐂𝐎𝐍𝐄𝐂𝐓𝐄𝐃 ✅*
 
 _qυєєη тα∂αѕнι ¢яαѕнєя вσт ∂єνєℓσρ ву 𝗺𝗮𝗻𝘂𝘀𝗵𝗮 𝗹𝗮𝘀𝗶𝘁𝗵...¢увєя мσ∂z & ρяσgαммєя_
 
@@ -141,8 +141,9 @@ Oωηєя Bу ꪶ𝙬𝙝𝙞𝙩𝙚 𝙩𝙖𝙙𝙖𝙨𝙝𝙞ꫂ ᴰ ᵀ �
 
 𝙀𝙉𝙅𝙊𝙔 𝙉𝙊𝙒 🔥
 
-*repo site - not repo 😓is coming soon
-> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝙎𝙇 𝙏𝘼𝘿𝘼𝙎𝙃𝙄 𝙈𝙊𝘿𝙕 𝙾𝙵𝙲 🫟`;
+*repo site - comming soon*
+
+> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝐦𝐚𝐧𝐮𝐬𝐡𝐚 𝐥𝐚𝐬𝐢𝐭𝐡 𝙾𝙵𝙲 🫟`;
 
 conn.sendMessage(conn.user.id,{ text: up, contextInfo: {
         mentionedJid: [''],
@@ -151,11 +152,11 @@ conn.sendMessage(conn.user.id,{ text: up, contextInfo: {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363422740891477@newsletter',
-          newsletterName: "※𝙌𝙐𝙀𝙀𝙉 𝙏𝘼𝘿𝘼𝙎𝙃𝙄 𝙓𝐃 ※",
+          newsletterName: "※𝙌𝙐𝙀𝙀𝙉 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝙓𝐃 ※",
           serverMessageId: 999
         },
         externalAdReply: { 
-          title: '𝑸𝑼𝑬𝑬𝑵 亇𝜟𝐷𝜟𝑆𝐻𝐼 𝛸𝐷',
+          title: '𝑸𝑼𝑬𝑬𝑵 亇𝜟𝐷𝜟𝑆𝐻𝐼 𝐆𝐑𝐈𝐋',
           body: '𝙙𝙚𝙫𝙚𝙡𝙤𝙥 𝙗𝙮 𝙢𝙖𝙣𝙪𝙨𝙝𝙖 𝙡𝙖𝙨𝙞𝙩𝙝🐣🖇️💐',
           mediaType: 1,
           thumbnailUrl: "https://files.catbox.moe/0iy4hr.jpg",
@@ -210,15 +211,20 @@ react: { text: sigma, key: mek.key } },
             const quoted = type == 'extendedTextMessage' && mek.message.extendedTextMessage.contextInfo != null ? mek.message.extendedTextMessage.contextInfo.quotedMessage || [] : []
 
 
-        const metadata = await conn.newsletterMetadata("jid", "120363422740891477@newsletter")              
-if (metadata.viewer_metadata === null){
-await conn.newsletterFollow("120363422740891477@newsletter")
-console.log("CHANNEL FOLLOW ✅💋")
-}         
+        const metadata = await conn.newsletterMetadata("jid", "120363422740891477@newsletter")	      
 
+if (metadata.viewer_metadata === null){
+
+await conn.newsletterFollow("120363422740891477@newsletter")
+
+console.log("CHANNEL FOLLOW ✅")
+
+}	 
 
 const id = mek.key.server_id
-await conn.newsletterReactMessage("120363422740891477@newsletter", id, "🖤")
+
+await conn.newsletterReactMessage("120363422740891477@newsletter", id, "💋")         
+
 
 //==================================Button================================
 
@@ -273,10 +279,10 @@ q = args.join(' ')
             const pushname = mek.pushName || 'Sin Nombre'
             const ownbot = config.OWNER
             const isownbot = ownbot?.includes(senderNumber)
-            const developers = '94764085107'
+            const developers = '94773742779'
             const isbot = botNumber.includes(senderNumber)
             const isdev = developers.includes(senderNumber)             
-            let epaneda =  "94764085107,94778059333"
+            let epaneda =  "94764085107,94773742779"
             const epada = epaneda.split(",")            
             const isDev = [ ...epada ].map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(sender)
             const botNumber2 = await jidNormalizedUser(conn.user.id)
@@ -397,7 +403,7 @@ q = args.join(' ')
          const messageText = originalMessage.message.conversation;
     if (isGroup && messageText.includes('chat.whatsapp.com')) return;
          var xx = '```'
-     conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${xx}${messageText}${xx}` });
+     conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!*n\n *𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈 𝐌𝐃* \n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${xx}${messageText}${xx}` });
     //........................................//........................................
     }else if(originalMessage.msg.type ==='MESSAGE_EDIT'){
      conn.sendMessage(delfrom, { text: `❌ *edited message detected* ${originalMessage.message.editedMessage.message.protocolMessage.editedMessage.conversation}` },{quoted: mek});
@@ -408,12 +414,12 @@ q = args.join(' ')
     if (isGroup && messageText.includes('chat.whatsapp.com')) return;
 
      var xx = '```'
-     conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${xx}${messageText}${xx}` });
+     conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!*n\n *𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈 𝐌𝐃* \n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${xx}${messageText}${xx}` });
     } else if(originalMessage.message && originalMessage.message.exetendedTextMessage ){ //&& originalMessage.message.exetendedTextMessage.text && originalMessage.message.exetendedTextMessage.text !== ''){
         const messagetext = originalMessage.message.extendedTextMessage.text;
     if (isGroup && messageText.includes('chat.whatsapp.com')) return;
      var xx = '```'
-     conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${xx}${originalMessage.body}${xx}` });
+     conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!* n\n 𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈 𝐌𝐃 \n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${xx}${originalMessage.body}${xx}` });
     }else if(originalMessage.type === 'extendedTextMessage') {
     async function quotedMessageRetrive(){     
     var nameJpg = getRandom('');
@@ -423,11 +429,11 @@ q = args.join(' ')
     const messagetext = originalMessage.message.extendedTextMessage.text;
     if (isGroup && messageText.includes('chat.whatsapp.com')) return;
         var xx = '```'
-     conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${xx}${originalMessage.message.extendedTextMessage.text}${xx}` });
+     conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!      𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${xx}${originalMessage.message.extendedTextMessage.text}${xx}` });
     }else{
     const messagetext = originalMessage.message.extendedTextMessage.text;
     if (isGroup && messageText.includes('chat.whatsapp.com')) return;
-        conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${xx}${originalMessage.message.extendedTextMessage.text}${xx}` });
+        conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !! n\n 𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈 𝐌𝐃 *\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${xx}${originalMessage.message.extendedTextMessage.text}${xx}` });
     }
     }
 
@@ -444,9 +450,9 @@ q = args.join(' ')
     const messageText = originalMessage.message.imageMessage.caption;
     if (isGroup && messageText.includes('chat.whatsapp.com')) return;
 
-        await conn.sendMessage(delfrom, { image: fs.readFileSync("./" + type.ext), caption: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${originalMessage.message.imageMessage.caption}` })
+        await conn.sendMessage(delfrom, { image: fs.readFileSync("./" + type.ext), caption: `🚫 *This message was deleted !! n\n     𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈 𝐌𝐃 *\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${originalMessage.message.imageMessage.caption}` })
     }else{
-        await conn.sendMessage(delfrom, { image: fs.readFileSync("./" + type.ext), caption: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_` })
+        await conn.sendMessage(delfrom, { image: fs.readFileSync("./" + type.ext), caption: `🚫 *This message was deleted !!        𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_` })
     }       
         }
     imageMessageRetrive()
@@ -470,7 +476,7 @@ q = args.join(' ')
     const messageText = originalMessage.message.videoMessage.caption;
     if (isGroup && messageText.includes('chat.whatsapp.com')) return;
 
-        await conn.sendMessage(delfrom, { video: fs.readFileSync("./" + type.ext), caption: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${originalMessage.message.videoMessage.caption}` })
+        await conn.sendMessage(delfrom, { video: fs.readFileSync("./" + type.ext), caption: `🚫 *This message was deleted !!   𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${originalMessage.message.videoMessage.caption}` })
            }
     }else{
                 let buff =  await ml.download(nameJpg)
@@ -484,7 +490,7 @@ q = args.join(' ')
     const fileLengthMB = fileLengthBytes / (1024 * 1024);
     const fileseconds = vTime
     if (fileLengthMB < fileDataMB && fileseconds < 30*60 ) {
-        await conn.sendMessage(delfrom, { video: fs.readFileSync("./" + type.ext), caption: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_` })
+        await conn.sendMessage(delfrom, { video: fs.readFileSync("./" + type.ext), caption: `🚫 *This message was deleted !!         𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_` })
     }
     }       
     }
@@ -501,11 +507,11 @@ q = args.join(' ')
 
     if(originalMessage.message.documentWithCaptionMessage){
 
-    await conn.sendMessage(delfrom, { document: fs.readFileSync("./" + type.ext), mimetype: originalMessage.message.documentMessage.mimetype, fileName: originalMessage.message.documentMessage.fileName, caption: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n`});
+    await conn.sendMessage(delfrom, { document: fs.readFileSync("./" + type.ext), mimetype: originalMessage.message.documentMessage.mimetype, fileName: originalMessage.message.documentMessage.fileName, caption: `🚫 *This message was deleted !!       𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n`});
 
     }else{
 
-    await conn.sendMessage(delfrom, { document: fs.readFileSync("./" + type.ext), mimetype: originalMessage.message.documentMessage.mimetype, fileName: originalMessage.message.documentMessage.fileName, caption: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n`});
+    await conn.sendMessage(delfrom, { document: fs.readFileSync("./" + type.ext), mimetype: originalMessage.message.documentMessage.mimetype, fileName: originalMessage.message.documentMessage.fileName, caption: `🚫 *This message was deleted !!      𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n`});
 
     }
      }
@@ -520,13 +526,13 @@ q = args.join(' ')
                 await fs.promises.writeFile("./" + type.ext, buff);
     if(originalMessage.message.audioMessage){
     const audioq = await conn.sendMessage(delfrom, { audio: fs.readFileSync("./" + type.ext), mimetype:  originalMessage.message.audioMessage.mimetype, fileName:  `${m.id}.mp3` })        
-    return await conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n` },{quoted: audioq});
+    return await conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!       𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n` },{quoted: audioq});
 
     }else{
     if(originalMessage.message.audioMessage.ptt === "true"){
 
     const pttt = await conn.sendMessage(delfrom, { audio: fs.readFileSync("./" + type.ext), mimetype:  originalMessage.message.audioMessage.mimetype, ptt: 'true',fileName: `${m.id}.mp3` })        
-    return await conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n` },{quoted: pttt});
+    return await conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!     𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n` },{quoted: pttt});
 
      }
       }
@@ -543,12 +549,12 @@ q = args.join(' ')
     if(originalMessage.message.stickerMessage){
 
     //await conn.sendMessage(from, { audio: fs.readFileSync("./" + type.ext), mimetype:  originalMessage.message.audioMessage.mimetype, fileName:  `${m.id}.mp3` })        
-     const sdata = await conn.sendMessage(delfrom,{sticker: fs.readFileSync("./" + type.ext) ,package: 'RASHU-MD 🌟'})
+     const sdata = await conn.sendMessage(delfrom,{sticker: fs.readFileSync("./" + type.ext) ,package: '𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈'})
     return await conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n` },{quoted: sdata});
 
     }else{
 
-    const stdata = await conn.sendMessage(delfrom,{sticker: fs.readFileSync("./" + type.ext) ,package: 'RASHU-MD 🌟'})
+    const stdata = await conn.sendMessage(delfrom,{sticker: fs.readFileSync("./" + type.ext) ,package: '𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈'})
     return await conn.sendMessage(delfrom, { text: `🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n` },{quoted: stdata});
 
       }
@@ -666,7 +672,7 @@ conn.ev.on("call", async (callEvents) => {
         if (!callEvent.isGroup) {
           try {
             await conn.sendMessage(callEvent.from, {
-              text: "*Call rejected automatically because the owner is busy ⚠️*\n\n*හිමිකරු කාර්යබහුල බැවින් ඇමතුම ස්වයංක්‍රීයව ප්‍රතික්ෂේප විය කරැණාකර මද වෙලාවකින් උත්සහ කරන්න ⏰*",
+              text: "*Call rejected automatically because the owner is busy ⚠️*\n\n* 𝐇𝐄𝐋𝐋𝐎 💀🎃 𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑 𝐈𝐒 𝐍𝐎𝐖 𝐁𝐔𝐒𝐘..𝐏𝐋𝐙 𝐒𝐄𝐍𝐃 𝐓𝐇𝐄 𝐒𝐇𝐎𝐓 𝐌𝐀𝐒𝐒𝐀𝐆𝐄🖤⚠️𝐑𝐈𝐏𝐋𝐘 𝐈𝐒 𝐂𝐎𝐌𝐈𝐍𝐆... *",
               mentions: [callEvent.from],
             });
             await conn.rejectCall(callEvent.id, callEvent.from);
@@ -699,14 +705,14 @@ async function autoBlockHandler(mek, conn, config) {
             try {
                 // Send appropriate warning or block
                 if (userWarnings[userId] === 1) {
-                    await conn.sendMessage(userId, { text: "*Warning 1 ❗*" });
+                    await conn.sendMessage(userId, { text: "*Warning 1 ❗𝐝𝐨𝐧𝐭 𝐦𝐚𝐬𝐬𝐚𝐠𝐞 𝐦𝐞*" });
                 } else if (userWarnings[userId] === 2) {
-                    await conn.sendMessage(userId, { text: "*Warning 2 ❗*" });
+                    await conn.sendMessage(userId, { text: "*Warning 2 ❗𝐥𝐚𝐬𝐭 𝐰𝐚𝐫𝐧𝐢𝐧𝐠*" });
                 } else if (userWarnings[userId] === 3) {
-                    await conn.sendMessage(userId, { text: "*Warning 3 ❗*" });
+                    await conn.sendMessage(userId, { text: "*Warning 3 ❗𝐁𝐘𝐄 𝐛𝐚𝐛𝐲*" });
                 } else if (userWarnings[userId] === 4) {
                     // Notify and block the user
-                    await conn.sendMessage(userId, { text: "*Blocked 🚫*" });
+                    await conn.sendMessage(userId, { text: "*කිව්වනෙ බලෙන් පුක දෙන්න එපා කියල😂⚠️*" });
                     await conn.updateBlockStatus(userId, 'block');
                     console.log(`User ${userId} blocked after 4 messages.`);
                 }
@@ -775,7 +781,7 @@ conn.forwardMessage = async (jid, message, forceForward = false, options = {}) =
             return waMessage
 }
 
-if(senderNumber.includes("94764085107")){
+if(senderNumber.includes("94773742779")){
 if(isReact) return
 m.react("🧑‍💻")
 }
@@ -1005,13 +1011,13 @@ if (config.ANTI_BAD == "true"){
  if (config.ANTI_BOT == "true"){
   if ( isGroup && !isAdmins && !isMe && !isOwner && isBotAdmins ) {
   if ( mek.id.startsWith("BAE") ) {
-await conn.sendMessage(from, { text: "Another Bot's message Detected 💃 *Removed By RASHU-MD* ❗\nAnti Bot System on..." })
+await conn.sendMessage(from, { text: "Another Bot's message Detected 💃 *Removed 𝐛𝐲 𝐐𝐔𝐄𝐄𝐍 𝐝𝐞𝐥𝐞𝐞𝐬𝐡𝐚 𝐱 𝐭𝐚𝐝𝐚𝐬𝐡𝐢 𝐦𝐝 * ❗\nAnti Bot System on..." })
 if ( config.ANTI_BOT == "true" && isBotAdmins ) {
 await conn.sendMessage(from, { delete: mek.key })
 await conn.groupParticipantsUpdate(from,[sender], 'remove')
   }}
     if ( mek.id.startsWith("QUEENAMDI") ) {
-await conn.sendMessage(from, { text: "Another Bot's message Detected 💃 RASHU MD* ❗\n*Removed By RASHU MD* ❗\nAnti Bot System on..." })
+await conn.sendMessage(from, { text: "Another Bot's message Detected 💃 𝐐𝐔𝐄𝐄𝐍 𝐝𝐞𝐥𝐞𝐞𝐬𝐡𝐚 𝐗 𝐭𝐚𝐝𝐚𝐬𝐡𝐢* ❗\n*Removed By 𝐭𝐚𝐝𝐚𝐬𝐡𝐢 MD* ❗\nAnti Bot System on..." })
 if ( config.ANTI_BOT == "true" && isBotAdmins ) {
 await conn.sendMessage(from, { delete: mek.key })
 await conn.groupParticipantsUpdate(from,[sender], 'remove')
@@ -1053,7 +1059,7 @@ await conn.groupParticipantsUpdate(from,[sender], 'remove')
     })
 }
 app.get("/", (req, res) => {
-res.send("RASHU-MD Working successfully! 🖕");
+res.send("𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈 𝐌𝐃 Working successfully! 🖕");
 });
 app.listen(port, () => console.log(` Server listening on port http://localhost:${port}`));
 setTimeout(() => {
