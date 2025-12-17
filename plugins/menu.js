@@ -6,8 +6,8 @@ const { runtime, sleep } = require("../lib/functions");
 cmd({
   pattern: "bugmenu",
   alias: ["menu", "commands", "list", "panel"],
-  desc: "Command list with menu button.",
-  category: "main",
+  desc: "Command list with bug menu button.",
+  category: "bugmenu",
   use: ".bugmenu",
   react: "💀",
   dontAddCommandList: true,
@@ -16,7 +16,7 @@ cmd({
   try {
     const logoUrl =  "https://files.catbox.moe/47c2w9.jpg";
 
-    const des = `*QUEEN TADASHI CRASHER Menu List ...*
+    const des = `*BOT ALL BUG COMMAND Menu List ...*
 *😈🔥HELLOWZZ HOW TO TODAY ${pushname} *
 
 ⏳ *Runtime :*  
@@ -88,7 +88,7 @@ cmd({
     const cmds = commands.filter(c => c.category?.toUpperCase() === category && !c.dontAddCommandList);
     if (cmds.length === 0) return reply(`❌ No commands found under category: ${category}`);
 
-    let text = `*📜 𝐐𝐔𝐄𝐄𝐍 𝐓𝐀𝐃𝐀𝐒𝐇𝐈 𝐂𝐑𝐀𝐒𝐇𝐄𝐑${category} 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓*
+    let text = `*📜 𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈  ${category} 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓*
 
 🔋 *RAM     :* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB / ${Math.round(require('os').totalmem() / 1024 / 1024)} MB
 ⏱️ *RUN TIME :* ${runtime(process.uptime())}
