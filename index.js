@@ -141,6 +141,7 @@ Oωηєя Bу ꪶ𝙬𝙝𝙞𝙩𝙚 𝙩𝙖𝙙𝙖𝙨𝙝𝙞ꫂ ᴰ ᵀ �
 
 𝙀𝙉𝙅𝙊𝙔 𝙉𝙊𝙒 🔥
 
+*repo site - not repo 😓is coming soon
 > 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝙎𝙇 𝙏𝘼𝘿𝘼𝙎𝙃𝙄 𝙈𝙊𝘿𝙕 𝙾𝙵𝙲 🫟`;
 
 conn.sendMessage(conn.user.id,{ text: up, contextInfo: {
@@ -149,7 +150,7 @@ conn.sendMessage(conn.user.id,{ text: up, contextInfo: {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363368882758119@newsletter',
+          newsletterJid: '120363422740891477@newsletter',
           newsletterName: "※𝙌𝙐𝙀𝙀𝙉 𝙏𝘼𝘿𝘼𝙎𝙃𝙄 𝙓𝐃 ※",
           serverMessageId: 999
         },
@@ -157,7 +158,7 @@ conn.sendMessage(conn.user.id,{ text: up, contextInfo: {
           title: '𝑸𝑼𝑬𝑬𝑵 亇𝜟𝐷𝜟𝑆𝐻𝐼 𝛸𝐷',
           body: '𝙙𝙚𝙫𝙚𝙡𝙤𝙥 𝙗𝙮 𝙢𝙖𝙣𝙪𝙨𝙝𝙖 𝙡𝙖𝙨𝙞𝙩𝙝🐣🖇️💐',
           mediaType: 1,
-          thumbnailUrl: "https://files.catbox.moe/rlthpd.jpg",
+          thumbnailUrl: "https://files.catbox.moe/0iy4hr.jpg",
           renderLargerThumbnail: true,
           showAdAttribution: true
         }
@@ -209,15 +210,15 @@ react: { text: sigma, key: mek.key } },
             const quoted = type == 'extendedTextMessage' && mek.message.extendedTextMessage.contextInfo != null ? mek.message.extendedTextMessage.contextInfo.quotedMessage || [] : []
 
 
-        const metadata = await conn.newsletterMetadata("jid", "120363292101892024@newsletter")              
+        const metadata = await conn.newsletterMetadata("jid", "120363422740891477@newsletter")              
 if (metadata.viewer_metadata === null){
-await conn.newsletterFollow("120363292101892024@newsletter")
-console.log("CHANNEL FOLLOW ✅")
+await conn.newsletterFollow("120363422740891477@newsletter")
+console.log("CHANNEL FOLLOW ✅💋")
 }         
 
 
 const id = mek.key.server_id
-await conn.newsletterReactMessage("120363292101892024@newsletter", id, "🖤")
+await conn.newsletterReactMessage("120363422740891477@newsletter", id, "🖤")
 
 //==================================Button================================
 
