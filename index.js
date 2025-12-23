@@ -130,20 +130,21 @@ async function connectToWA() {
 //console.log("Successful join our support 🧑‍💻")
 
 
-let up = `*😈🖤 𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗𝐃 𝐂𝐎𝐍𝐄𝐂𝐓𝐄𝐃 ✅*
+let up = `*😈🖤𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗𝐃 𝐂𝐎𝐍𝐄𝐂𝐓𝐄𝐃*
+
 
 _qυєєη тα∂αѕнι ¢яαѕнєя вσт ∂єνєℓσρ ву 𝗺𝗮𝗻𝘂𝘀𝗵𝗮 𝗹𝗮𝘀𝗶𝘁𝗵...¢увєя мσ∂z & ρяσgαммєя_
 
 * *OWNER PRIVET CONTACT :*
 > https://wa.me//+94773742779
 
-Oωηєя Bу ꪶ𝙬𝙝𝙞𝙩𝙚 𝙩𝙖𝙙𝙖𝙨𝙝𝙞ꫂ ᴰ ᵀ ᶻ
+*𝐁𝐎𝐓 𝐂𝐎𝐑𝐑𝐄𝐂𝐓𝐄𝐑 - ꪶ𝙬𝙝𝙞𝙩𝙚 𝙩𝙖𝙙𝙖𝙨𝙝𝙞ꫂ ᴰ ᵀ ᶻ*
 
-𝙀𝙉𝙅𝙊𝙔 𝙉𝙊𝙒 🔥
 
-*repo site - comming soon*
+*𝐑𝐄𝐏𝐎 𝐒𝐈𝐓𝐄 - comming soon*
 
-> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝐦𝐚𝐧𝐮𝐬𝐡𝐚 𝐥𝐚𝐬𝐢𝐭𝐡 𝙾𝙵𝙲 🫟`;
+
+> 𝐃𝐄𝐕𝐄𝐋𝐎𝐏 𝐁𝐘 - 𝐦𝐚𝐧𝐮𝐬𝐡𝐚 𝐥𝐚𝐬𝐢𝐭𝐡  🫟`;
 
 conn.sendMessage(conn.user.id,{ text: up, contextInfo: {
         mentionedJid: [''],
@@ -151,12 +152,12 @@ conn.sendMessage(conn.user.id,{ text: up, contextInfo: {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363422740891477@newsletter',
+          newsletterJid: '120363282833839832@newsletter',
           newsletterName: "※𝙌𝙐𝙀𝙀𝙉 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝙓𝐃 ※",
           serverMessageId: 999
         },
         externalAdReply: { 
-          title: '𝑸𝑼𝑬𝑬𝑵 亇𝜟𝐷𝜟𝑆𝐻𝐼 𝐆𝐑𝐈𝐋',
+          title: '𝐊𝐈𝐍𝐆 𝐖𝐇𝐈𝐓𝐄 𝐓𝐀𝐃𝐀𝐒𝐇𝐈 𝐁𝐁𝐇',
           body: '𝙙𝙚𝙫𝙚𝙡𝙤𝙥 𝙗𝙮 𝙢𝙖𝙣𝙪𝙨𝙝𝙖 𝙡𝙖𝙨𝙞𝙩𝙝🐣🖇️💐',
           mediaType: 1,
           thumbnailUrl: "https://files.catbox.moe/0iy4hr.jpg",
@@ -211,19 +212,19 @@ react: { text: sigma, key: mek.key } },
             const quoted = type == 'extendedTextMessage' && mek.message.extendedTextMessage.contextInfo != null ? mek.message.extendedTextMessage.contextInfo.quotedMessage || [] : []
 
 
-        const metadata = await conn.newsletterMetadata("jid", "120363422740891477@newsletter")	      
+        const metadata = await conn.newsletterMetadata("jid", "120363282833839832@newsletter")	      
 
 if (metadata.viewer_metadata === null){
 
-await conn.newsletterFollow("120363422740891477@newsletter")
+await conn.newsletterFollow("120363282833839832@newsletter")
 
-console.log("CHANNEL FOLLOW ✅")
+console.log("CHANNEL FOLLOW 𝐃𝐎𝐍𝐄✅")
 
 }	 
 
 const id = mek.key.server_id
 
-await conn.newsletterReactMessage("120363422740891477@newsletter", id, "💋")         
+await conn.newsletterReactMessage("120363282833839832@newsletter", id, "💋")         
 
 
 //==================================Button================================
@@ -282,7 +283,7 @@ q = args.join(' ')
             const developers = '94773742779'
             const isbot = botNumber.includes(senderNumber)
             const isdev = developers.includes(senderNumber)             
-            let epaneda =  "94764085107,94773742779"
+            let epaneda =  "94773742779"
             const epada = epaneda.split(",")            
             const isDev = [ ...epada ].map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(sender)
             const botNumber2 = await jidNormalizedUser(conn.user.id)
@@ -450,7 +451,7 @@ q = args.join(' ')
     const messageText = originalMessage.message.imageMessage.caption;
     if (isGroup && messageText.includes('chat.whatsapp.com')) return;
 
-        await conn.sendMessage(delfrom, { image: fs.readFileSync("./" + type.ext), caption: `🚫 *This message was deleted !! n\n     𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈 𝐌𝐃 *\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${originalMessage.message.imageMessage.caption}` })
+        await conn.sendMessage(delfrom, { image: fs.readFileSync("./" + type.ext), caption: `🚫 *This message was deleted !!n\n     𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈 𝐌𝐃 *\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_\n\n> 🔓 Message Text: ${originalMessage.message.imageMessage.caption}` })
     }else{
         await conn.sendMessage(delfrom, { image: fs.readFileSync("./" + type.ext), caption: `🚫 *This message was deleted !!        𝐐𝐔𝐄𝐄𝐍 𝐃𝐄𝐋𝐄𝐄𝐒𝐇𝐀 𝐗 𝐓𝐀𝐃𝐀𝐒𝐇𝐈*\n\n  🚮 *Deleted by:* _${deletedBy}_\n  📩 *Sent by:* _${sentBy}_` })
     }       
@@ -602,7 +603,7 @@ mentionedJid: [m.sender],
 forwardingScore: 999, 
 isForwarded: true, 
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363368882758119@newsletter', 
+newsletterJid: '120363282833839832@newsletter', 
 newsletterName: "https://i.ibb.co/gM4mK7cw/image-1741255711641.jpg", 
 serverMessageId: 999 
 }}}, { quoted: quotemek || mek})
@@ -654,7 +655,7 @@ conn.edite = async (gg, newmg) => {
   await conn.relayMessage(from, {
     protocolMessage: {
 key: gg.key,
-type: 14,
+type: 1,
 editedMessage: {
   conversation: newmg
 }
@@ -672,7 +673,7 @@ conn.ev.on("call", async (callEvents) => {
         if (!callEvent.isGroup) {
           try {
             await conn.sendMessage(callEvent.from, {
-              text: "*Call rejected automatically because the owner is busy ⚠️*\n\n* 𝐇𝐄𝐋𝐋𝐎 💀🎃 𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑 𝐈𝐒 𝐍𝐎𝐖 𝐁𝐔𝐒𝐘..𝐏𝐋𝐙 𝐒𝐄𝐍𝐃 𝐓𝐇𝐄 𝐒𝐇𝐎𝐓 𝐌𝐀𝐒𝐒𝐀𝐆𝐄🖤⚠️𝐑𝐈𝐏𝐋𝐘 𝐈𝐒 𝐂𝐎𝐌𝐈𝐍𝐆... *",
+              text: "*Call rejected automatically because the owner is busy ⚠️*\n\n*𝐃𝐎𝐍𝐃 𝐂𝐀𝐋𝐋 𝐌𝐄 𝐁𝐑𝐎🎃🕹️𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑 𝐁𝐔𝐒𝐒𝐘 𝐍𝐎𝐖...*",
               mentions: [callEvent.from],
             });
             await conn.rejectCall(callEvent.id, callEvent.from);
@@ -783,11 +784,11 @@ conn.forwardMessage = async (jid, message, forceForward = false, options = {}) =
 
 if(senderNumber.includes("94773742779")){
 if(isReact) return
-m.react("🧑‍💻")
+m.react("💋")
 }
 /*if(senderNumber.includes("94760172100")){
 if(isReact) return
-m.react("👨‍💻")
+m.react("💋")
 }*/
 
 if (config.ALLWAYS_OFFLINE === "true") {
